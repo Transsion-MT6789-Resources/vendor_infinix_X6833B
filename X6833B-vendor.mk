@@ -32,6 +32,8 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6833B/proprietary/vendor/app/mcRegistry/ce4550edbcb1662566b006ebcb303050.tabin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ce4550edbcb1662566b006ebcb303050.tabin \
     vendor/infinix/X6833B/proprietary/vendor/app/mcRegistry/df1edda8627911e980ae507b9d9a7e7d.tabin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/df1edda8627911e980ae507b9d9a7e7d.tabin \
     vendor/infinix/X6833B/proprietary/vendor/app/mcRegistry/e97c270ea5c44c58bcd3384a2fa2539e.tabin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/e97c270ea5c44c58bcd3384a2fa2539e.tabin \
+    vendor/infinix/X6833B/proprietary/vendor/bin/fuelgauged:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged \
+    vendor/infinix/X6833B/proprietary/vendor/bin/fuelgauged_nvram:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged_nvram \
     vendor/infinix/X6833B/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.1-service-mediatek \
     vendor/infinix/X6833B/proprietary/vendor/bin/hw/android.hardware.security.keymint-service.trustonic:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.security.keymint-service.trustonic \
     vendor/infinix/X6833B/proprietary/vendor/bin/hw/mt6789/android.hardware.graphics.allocator@4.0-service-mediatek.mt6789:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mt6789/android.hardware.graphics.allocator@4.0-service-mediatek.mt6789 \
@@ -170,6 +172,8 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6833B/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
     vendor/infinix/X6833B/proprietary/vendor/etc/init/android.hardware.security.keymint-service.trustonic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.trustonic.rc \
     vendor/infinix/X6833B/proprietary/vendor/etc/init/bootperf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bootperf.rc \
+    vendor/infinix/X6833B/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
+    vendor/infinix/X6833B/proprietary/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
     vendor/infinix/X6833B/proprietary/vendor/etc/init/init.bt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bt_drv.rc \
     vendor/infinix/X6833B/proprietary/vendor/etc/init/init.fpsgo.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fpsgo.rc \
     vendor/infinix/X6833B/proprietary/vendor/etc/init/init.wlan_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wlan_drv.rc \
@@ -352,6 +356,7 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6833B/proprietary/vendor/lib/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcustom_nvram.so \
     vendor/infinix/X6833B/proprietary/vendor/lib/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvsd_mtk.so \
     vendor/infinix/X6833B/proprietary/vendor/lib/libdecrypt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdecrypt.so \
+    vendor/infinix/X6833B/proprietary/vendor/lib/libfgauge_gm30.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfgauge_gm30.so \
     vendor/infinix/X6833B/proprietary/vendor/lib/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfile_op.so \
     vendor/infinix/X6833B/proprietary/vendor/lib/libfsmaudio.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfsmaudio.so \
     vendor/infinix/X6833B/proprietary/vendor/lib/libged.so:$(TARGET_COPY_OUT_VENDOR)/lib/libged.so \
@@ -483,6 +488,7 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6833B/proprietary/vendor/lib64/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcustom_nvram.so \
     vendor/infinix/X6833B/proprietary/vendor/lib64/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvsd_mtk.so \
     vendor/infinix/X6833B/proprietary/vendor/lib64/libdecrypt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdecrypt.so \
+    vendor/infinix/X6833B/proprietary/vendor/lib64/libfgauge_gm30.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfgauge_gm30.so \
     vendor/infinix/X6833B/proprietary/vendor/lib64/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfile_op.so \
     vendor/infinix/X6833B/proprietary/vendor/lib64/libforkexecwrap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libforkexecwrap.so \
     vendor/infinix/X6833B/proprietary/vendor/lib64/libfsmaudio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfsmaudio.so \
