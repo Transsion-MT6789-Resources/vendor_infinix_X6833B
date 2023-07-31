@@ -477,6 +477,7 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6833B/proprietary/vendor/lib64/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeechparser_vendor.so \
     vendor/infinix/X6833B/proprietary/vendor/lib64/libtranlog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtranlog.so \
     vendor/infinix/X6833B/proprietary/vendor/lib64/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libudf.so \
+    vendor/infinix/X6833B/proprietary/vendor/lib64/libwifi-hal-mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal-mtk.so \
     vendor/infinix/X6833B/proprietary/vendor/lib64/mt6789/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/arm.graphics-V1-ndk_platform.so \
     vendor/infinix/X6833B/proprietary/vendor/lib64/mt6789/libaalservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/libaalservice.so \
     vendor/infinix/X6833B/proprietary/vendor/lib64/mt6789/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/libaiselector.so \
